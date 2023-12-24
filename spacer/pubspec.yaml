@@ -1,7 +1,7 @@
-name: spacer
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+name: flutter_spacer
+description: "spacer is a Dart package for Flutter that simplifies the creation of responsive layouts by providing utilities for easily spacing widgets in terms of percentage of screen width or height."
+version: 1.0.0
+repository: https://github.com/mstafamajid/Spacer
 
 environment:
   sdk: '>=3.2.3 <4.0.0'

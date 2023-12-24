@@ -98,13 +98,13 @@ This project is licensed under the [MIT License](LICENSE). Feel free to review t
 For any further inquiries or communication, you can reach out to the package maintainer:
 
 - Maintainer: Mustafa majid
-- Email: mustafadev0@gmail.com
+- Email: mstafadev0@gmail.com
 
 ### Support the Project
 
 If you find this package helpful, consider giving it a star on GitHub and spreading the word. Your support is greatly appreciated!
 
-[![GitHub stars](https://img.shields.io/github/stars/your-github-username/your-repo-name.svg?style=social)](https://github.com/mstafamajid/Spacer)
+[![GitHub stars](https://img.shields.io/github.com/mstafamajid/Spacer.svg?style=social)](https://github.com/mstafamajid/Spacer)
 
 ---
 
