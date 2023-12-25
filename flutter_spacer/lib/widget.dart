@@ -1,4 +1,4 @@
-part of spacer;
+part of flutter_spacer;
 
 /// Provides `Context` to the builder function
 typedef ResponsiveBuild = Widget Function(
@@ -6,8 +6,8 @@ typedef ResponsiveBuild = Widget Function(
 );
 
 /// Usage: Wrap MaterialApp with this widget
-class Spacer extends StatelessWidget {
-  const Spacer({Key? key, required this.builder}) : super(key: key);
+class FlutterSpacer extends StatelessWidget {
+  const FlutterSpacer({Key? key, required this.builder}) : super(key: key);
 
   /// Builds the widget whenever the orientation changes
   final ResponsiveBuild builder;

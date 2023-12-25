@@ -1,6 +1,4 @@
-
-
-spacer is a Dart package for Flutter that simplifies the creation of responsive layouts by providing utilities for easily spacing widgets in terms of percentage of screen width or height.
+flutter_spacer is a Dart package that simplifies the creation of responsive layouts by providing utilities for easily spacing between widgets in terms of percentage of screen width or height.
 
 
 ## Features
@@ -10,15 +8,15 @@ spacer is a Dart package for Flutter that simplifies the creation of responsive 
 
 ## Getting started
 
-To use this package, add spacer to your pubspec.yaml file
+To use this package, add flutter_spacer to your pubspec.yaml file
 
 ```dart
   dependencies:
-  spacer: ^1.0.0 # use the latest version
+  flutter_spacer: ^1.0.2 # use the latest version
 ```
 or
 ```dart
- dart pub add spacer
+ dart pub add flutter_spacer
 ```
 
 
@@ -27,7 +25,7 @@ or
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:spacer/spacer.dart';
+import 'package:flutter_spacer/flutter_spacer.dart';
 
 void main() {
   runApp(MyApp());
@@ -36,7 +34,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Spacer(
+    return FlutterSpacer(
       builder: (context) {
         return MaterialApp(
           title: 'My App',
@@ -59,17 +57,32 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              // Example of using extension methods
-              height: 20.hs,
-              width: 50.ws,
+          
+              height: 20,
+              width: 50,
               color: Colors.blue,
               child: Center(
                 child: Text(
-                  'Responsive Container',
+                  'first Container',
                   style: TextStyle(color: Colors.white),
                 ),
               ),
             ),
+            
+            20.hs // give you space of 20%
+            Container(
+          
+              height: 20,
+              width: 50,
+              color: Colors.blue,
+              child: Center(
+                child: Text(
+                  'Second Container',
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
@@ -78,10 +91,9 @@ class MyHomePage extends StatelessWidget {
 }
 
 ```
-
 ## Additional Information
 
-Thank you for using the `spacer` package! Here's some additional information to help you make the most out of this package:
+Thank you for using the `flutter_spacer` package! Here's some additional information to help you make the most out of this package:
 
 
 ### Issues and Contributions
@@ -104,7 +116,8 @@ For any further inquiries or communication, you can reach out to the package mai
 
 If you find this package helpful, consider giving it a star on GitHub and spreading the word. Your support is greatly appreciated!
 
-[![GitHub stars](https://img.shields.io/github.com/mstafamajid/Spacer.svg?style=social)](https://github.com/mstafamajid/Spacer)
+![Static Badge](https://img.shields.io/badge/flutter_spacer-blue?style=flat-square&link=https%3A%2F%2Fgithub.com%2Fmstafamajid%2FSpacer&link=https%3A%2F%2Fgithub.com%2Fmstafamajid%2FSpacer)
+
 
 ---
 

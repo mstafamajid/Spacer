@@ -1,8 +1,6 @@
-part of spacer;
+part of flutter_spacer;
 
 class SpacerUtil {
-  static late BoxConstraints boxConstraints;
-
   /// Device's Height
   static late double height;
 
@@ -11,6 +9,6 @@ class SpacerUtil {
 
   static void setScreenSize(BuildContext context) {
     height = MediaQuery.of(context).size.height - kToolbarHeight;
-    width = MediaQuery.of(context).size.width - kToolbarHeight;
+    width = MediaQuery.of(context).size.width;
   }
 }

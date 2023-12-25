@@ -1,4 +1,4 @@
-part of spacer;
+part of flutter_spacer;
 
 extension SpacerExtension on num {
   /// Eg: 20.hs -> will create sized box with 20% screen height minus height of toolbar

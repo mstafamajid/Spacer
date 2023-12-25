@@ -1,4 +1,4 @@
-library spacer;
+library flutter_spacer;
 
 import 'package:flutter/material.dart';
 

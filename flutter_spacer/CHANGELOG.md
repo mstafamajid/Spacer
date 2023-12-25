@@ -6,3 +6,6 @@
 - update license
 ## 1.0.2
 - update readme file
+- change spacer to flutter spacer
+## 1.0.3
+- add example
